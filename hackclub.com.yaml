@@ -1522,10 +1522,6 @@ cken:
 - ttl: 300
   type: A
   value: 52.191.165.18
-clam: # mihir@hackclub.com U0BC86VAYT0
-  - type: A
-    value: 141.148.195.78
-    ttl: 600
 bag.client:
   ttl: 300
   type: A
@@ -1536,6 +1532,13 @@ clubapi: #ivie@hackclub.com @Charmunk
       proxied: true
   type: CNAME
   value: a.selfhosted.hackclub.com.
+clubs: # dhyan@hackclub.com // U0824G9PTFE
+  octodns:
+    cloudflare:
+      proxied: true
+  ttl: 600
+  type: CNAME
+  value: a.ingress.tier2.infra.hackclub.com.
 clubdash:
 - octodns:
     cloudflare:
